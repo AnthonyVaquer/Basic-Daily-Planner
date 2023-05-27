@@ -21,7 +21,7 @@ textarea {
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: 1px solid black;
 }
 
 .hour {
@@ -37,7 +37,7 @@ textarea {
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future {
