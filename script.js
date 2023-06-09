@@ -32,12 +32,12 @@ $(document).ready(function () {
 
             return item;
           });
-// save updated events to local storage
+          // save updated events to local storage
           localStorage.setItem("events", JSON.stringify(udpatedEvents));
           alert("Your event has been updated.");
           return;
         }
-// save previous events to local storage
+        // save previous events to local storage
         localStorage.setItem("events", JSON.stringify(prevsEvents));
       } else {
         localStorage.setItem("events", JSON.stringify(prevsEvents));
@@ -77,4 +77,5 @@ function getTime() {
   });
 }
 
+// get time every 15 seconds
 setInterval(getTime, 15000);
